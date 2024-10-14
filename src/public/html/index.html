@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function nextpage(){
+            fetch('/board/v1/show', { //추후에 수정필요
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    // body: JSON.stringify({ title, content }),
+                });
+        }
+    </script>
+</head>
+<body>
+    hello world
+    <button onclick="nextpage()"></button>
+</body>
+</html>
