@@ -1,3 +1,4 @@
 node_modules/*
-*.json
-src/config/*
+# *.json
+# package*.json
+# src/config/*

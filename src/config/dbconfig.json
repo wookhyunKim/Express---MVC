@@ -1,0 +1,6 @@
+{
+    "host" : "ip",
+    "user" : "id",
+    "password" : "password",
+    "database" : "schema"
+}
